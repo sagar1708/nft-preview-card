@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div style="min-height: 100vh; background-color: hsl(217, 54%, 11%)">
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center" style="height: 100vh">
         <div class="col-4">
