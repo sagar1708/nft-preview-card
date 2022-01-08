@@ -1,6 +1,12 @@
 <template>
-  <div id="app">
-    <Card msg="Welcome to Your Vue.js App"/>
+  <div >
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center" style="height: 100vh">
+        <div class="col-4">
+          <Card msg="Welcome to Your Vue.js App"/>
+        </div>
+      </div>
+    </div>
     
   </div>
 </template>
@@ -18,11 +24,6 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100vh;
 }
 </style>
